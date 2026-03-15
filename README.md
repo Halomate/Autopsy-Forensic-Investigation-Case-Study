@@ -51,7 +51,7 @@ Steps included:
 
 This process establishes the environment for evidence analysis.
 
-![Case_Creation](screenshots/case_creation.png)
+![Case_Creation](screenshots/case_creation.PNG)
 
 ---
 
