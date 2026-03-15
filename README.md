@@ -69,7 +69,7 @@ Autopsy ingest modules were used to automatically analyze artifacts including:
 
 These modules allow investigators to quickly identify potential evidence within the disk image.
 
-![Disk_Image](screenshots/disk_image_ingest.png)
+![Disk_Image](screenshots/disk_image_ingest.PNG)
 
 ---
 
@@ -85,7 +85,7 @@ Example keywords included:
 
 The search returned **multiple results associated with confidential documents** stored within the disk image.
 
-![Keyword_Search](screenshots/keyword_search.png)
+![Keyword_Search](screenshots/keyword_search.PNG)
 
 ---
 
@@ -101,7 +101,7 @@ Recovered documents included:
 
 The presence of these files in **carved and unallocated space** indicates the files had been deleted, potentially in an attempt to conceal them.
 
-![Deleted_Files](screenshots/deleted_files_recovery.png)
+![Deleted_Files](screenshots/deleted_files_recovery.PNG)
 
 ---
 
@@ -116,7 +116,7 @@ Timeline analysis allowed the investigation to identify:
 * User access patterns
 * Potential correlations between file activity and suspicious behavior
 
-![Timeline_Analysis](screenshots/timeline_analysis.png)
+![Timeline_Analysis](screenshots/timeline_analysis.PNG)
 
 ---
 
@@ -131,7 +131,7 @@ The forensic investigation uncovered several indicators of potential data exfilt
 
 The presence of cryptocurrency-related documentation alongside proprietary files raises concern regarding potential plans to distribute or sell company data anonymously.
 
-![Metadata_Evidence](screenshots/metadata_evidence.png)
+![Metadata_Evidence](screenshots/metadata_evidence.PNG)
 
 ---
 
