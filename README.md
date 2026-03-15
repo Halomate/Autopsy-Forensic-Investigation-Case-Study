@@ -51,6 +51,8 @@ Steps included:
 
 This process establishes the environment for evidence analysis.
 
+![Case_Creation](screenshots/case_creation.png)
+
 ---
 
 ### 2. Disk Image Ingestion
@@ -67,6 +69,8 @@ Autopsy ingest modules were used to automatically analyze artifacts including:
 
 These modules allow investigators to quickly identify potential evidence within the disk image.
 
+![Disk_Image](screenshots/disk_image_ingest.png)
+
 ---
 
 ### 3. Keyword Search Investigation
@@ -80,6 +84,8 @@ Example keywords included:
 * Company-specific terminology
 
 The search returned **multiple results associated with confidential documents** stored within the disk image.
+
+![Keyword_Search](screenshots/keyword_search.png)
 
 ---
 
@@ -95,6 +101,8 @@ Recovered documents included:
 
 The presence of these files in **carved and unallocated space** indicates the files had been deleted, potentially in an attempt to conceal them.
 
+![Deleted_Files](screenshots/deleted_files_recovery.png)
+
 ---
 
 ### 5. Timeline Analysis
@@ -108,6 +116,8 @@ Timeline analysis allowed the investigation to identify:
 * User access patterns
 * Potential correlations between file activity and suspicious behavior
 
+![Timeline_Analysis](screenshots/timeline_analysis.png)
+
 ---
 
 ## Key Findings
@@ -120,6 +130,8 @@ The forensic investigation uncovered several indicators of potential data exfilt
 * A document related to **anonymous Bitcoin transactions** was recovered near the confidential files
 
 The presence of cryptocurrency-related documentation alongside proprietary files raises concern regarding potential plans to distribute or sell company data anonymously.
+
+![Metadata_Evidence](screenshots/metadata_evidence.png)
 
 ---
 
@@ -145,55 +157,6 @@ These findings indicate a likely violation of the organization's **Acceptable Us
 
 ---
 
-## Screenshots
-
-Add screenshots from your investigation here.
-
-Example structure:
-
-```
-screenshots/
-│
-├── case_creation.png
-├── disk_image_ingest.png
-├── keyword_search.png
-├── deleted_files_recovery.png
-└── timeline_analysis.png
-```
-
-Example screenshot embed:
-
-![Autopsy Case Creation](screenshots/case_creation.png)
-
-![Keyword Search Results](screenshots/keyword_search.png)
-
-![Deleted Files Recovery](screenshots/deleted_files_recovery.png)
-
----
-
-## Repository Structure
-
-```
-digital-forensics-autopsy-investigation
-│
-├── README.md
-│
-├── investigation-report
-│   └── forensic-investigation.pdf
-│
-├── screenshots
-│   ├── case_creation.png
-│   ├── disk_image_ingest.png
-│   ├── keyword_search.png
-│   ├── deleted_files_recovery.png
-│   └── timeline_analysis.png
-│
-└── documentation
-    └── investigative-plan.md
-```
-
----
-
 ## References
 
 National Institute of Standards and Technology (NIST).
@@ -206,5 +169,3 @@ Guide to Computer Forensics and Investigations – Nelson, Phillips, & Steuart
 ## Author
 
 Caleb Espinoza
-
-Cybersecurity Portfolio Project
