@@ -166,6 +166,6 @@ Guide to Computer Forensics and Investigations – Nelson, Phillips, & Steuart
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 Caleb Espinoza
