@@ -1,6 +1,6 @@
-# Digital Forensics Investigation using Autopsy
+# 🧾 Digital Forensics Investigation using Autopsy
 
-## Overview
+## 🔍 Overview
 
 This project demonstrates a **digital forensic investigation using Autopsy**, an open-source digital forensics platform used by investigators to analyze disk images and recover digital evidence.
 
@@ -10,7 +10,7 @@ This case study simulates an **insider threat investigation**, focusing on recov
 
 ---
 
-## Investigation Scenario
+## 🕵️ Investigation Scenario
 
 A company suspected an employee of accessing and potentially distributing **confidential business documents** without authorization.
 
@@ -25,7 +25,7 @@ The investigation was conducted using **Autopsy** to analyze the suspect disk im
 
 ---
 
-## Tools Used
+## 🧰 Tools Used
 
 * **Autopsy** – Digital forensic investigation platform
 * Disk Image Analysis
@@ -36,9 +36,9 @@ The investigation was conducted using **Autopsy** to analyze the suspect disk im
 
 ---
 
-## Investigation Methodology
+## 🧠 Investigation Methodology
 
-### 1. Case Creation
+### 📁 1. Case Creation
 
 A new forensic case was created in Autopsy.
 
@@ -55,7 +55,7 @@ This process establishes the environment for evidence analysis.
 
 ---
 
-### 2. Disk Image Ingestion
+### 2. 💽 Disk Image Ingestion
 
 The suspect disk image was imported into the forensic case.
 
@@ -73,7 +73,7 @@ These modules allow investigators to quickly identify potential evidence within 
 
 ---
 
-### 3. Keyword Search Investigation
+### 3. 🔎 Keyword Search Investigation
 
 Keyword searches were conducted to locate files related to sensitive business information.
 
@@ -89,7 +89,7 @@ The search returned **multiple results associated with confidential documents** 
 
 ---
 
-### 4. Deleted File Recovery
+### ♻️ 4. Deleted File Recovery
 
 Using the **Deleted Files** filter in Autopsy, several deleted files were recovered from unallocated disk space.
 
@@ -105,7 +105,7 @@ The presence of these files in **carved and unallocated space** indicates the fi
 
 ---
 
-### 5. Timeline Analysis
+### ⏱️ 5. Timeline Analysis
 
 The Autopsy **Timeline module** was used to reconstruct user activity.
 
@@ -120,7 +120,7 @@ Timeline analysis allowed the investigation to identify:
 
 ---
 
-## Key Findings
+## 🚨 Key Findings
 
 The forensic investigation uncovered several indicators of potential data exfiltration:
 
@@ -135,7 +135,7 @@ The presence of cryptocurrency-related documentation alongside proprietary files
 
 ---
 
-## Conclusion
+## 📑 Conclusion
 
 The forensic analysis revealed that the suspect had access to and deleted multiple confidential corporate documents.
 
@@ -145,7 +145,7 @@ These findings indicate a likely violation of the organization's **Acceptable Us
 
 ---
 
-## Skills Demonstrated
+## 🧩 Skills Demonstrated
 
 * Digital Forensic Investigation
 * Disk Image Analysis
@@ -157,7 +157,7 @@ These findings indicate a likely violation of the organization's **Acceptable Us
 
 ---
 
-## References
+## 📚 References
 
 National Institute of Standards and Technology (NIST).
 Guide to Integrating Forensic Techniques into Incident Response (SP 800-86)
